@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    background-color: #f1f1f1;
+}
+
+.bars  .nav-link span{
+    padding: 0 15px;
+    vertical-align: bottom;
+    white-space: nowrap;
+    font-size: 15px;
+}
+.navfooter{
+    padding-right: 30px;
+    padding-left: 1rem;
+}
+.nav-link{
+    padding: 0;
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* .chip-container{
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50px; 
+    left: 90px;  
+    width: 80%;
+    margin-left: 13%;
+    z-index: 1;
+} */
+
+.chip-container{
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px; 
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+    z-index: 1;
+}
+.chip{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 10px 15px;
+    font-size: 12px;
+    background-color:  rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    border-radius: 25px;
+}
+
+.chip.active{
+    background-color: black;
+    color: white;
+}
+
+.card{
+overflow: hidden;
+border-radius: 15px;
+}
